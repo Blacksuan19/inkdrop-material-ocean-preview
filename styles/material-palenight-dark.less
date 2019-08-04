@@ -1,4 +1,6 @@
-body[class*="dark-ui"] {
+@import 'colors';
+
+body[class*="dark-ui"], body[class*="material-palenight-ui"] {
   .mde-preview {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -83,24 +85,24 @@ body[class*="dark-ui"] {
     .cm-link {text-decoration: underline;}
     .cm-strikethrough {text-decoration: line-through;}
 
-    .cm-keyword {color: #cc99cc; font-weight: normal;}
-    .cm-atom {color: #8abeb7;}
-    .cm-number {color: #f99157;}
-    .cm-def {color: #b5bd68;}
-    .cm-property {color: #b5bd68;}
+    .cm-keyword {color: @color00; font-style: italic; font-weight: normal;}
+    .cm-atom, .cm-callee {color: @color05;}
+    .cm-number {color: @color07;}
+    .cm-def {color: @color00; font-style: italic;}
+    .cm-property {color: @color04;}
     .cm-operator {color: #cc99cc;}
     .cm-variable,
     .cm-punctuation {}
-    .cm-variable-2 {color: #4A664A;}
+    .cm-variable-2 {color: @color06;}
     .cm-variable-3, .cm-type {color: rgba(255, 255, 255, 0.8);}
-    .cm-comment {color: #969896; font-style: italic;}
-    .cm-string {color: #8abeb7;}
+    .cm-comment {color: @color03; font-style: italic;}
+    .cm-string {color: @color02;}
     .cm-string-2 {color: #8abeb7;}
     .cm-meta {color: #f99157;}
-    .cm-qualifier {color: #555;}
-    .cm-builtin {color: #8abeb7;}
+    .cm-qualifier {color: @color01;}
+    .cm-builtin {color: @color01;}
     .cm-bracket {color: #f99157;}
-    .cm-tag {color: #a54543;}
+    .cm-tag {color: @color08;}
     .cm-attribute {color: #fda331;}
     .cm-hr {color: #999;}
     .cm-link {color: #f99157;}
