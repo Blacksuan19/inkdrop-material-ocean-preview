@@ -1,7 +1,7 @@
 {
   "name": "material-palenight-preview",
   "description": "Material Palenight preview theme port for Inkdrop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "theme": "preview",
   "repository": {
     "type": "git",
