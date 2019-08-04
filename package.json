@@ -3,7 +3,10 @@
   "description": "Material Palenight preview theme port for Inkdrop",
   "version": "0.0.0",
   "theme": "preview",
-  "repository": "https://github.com/nint8835/material-palenight-preview",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nint8835/material-palenight-preview"
+  },
   "author": "Riley Flynn<riley@rileyflynn.me>",
   "license": "MIT",
   "styleSheets": [
