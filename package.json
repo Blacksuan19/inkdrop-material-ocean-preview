@@ -1,7 +1,7 @@
 {
   "name": "material-ocean-preview",
   "description": "Material Ocean preview theme for Inkdrop",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "theme": "preview",
   "repository": {
     "type": "git",
