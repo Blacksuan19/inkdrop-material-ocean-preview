@@ -1,17 +1,17 @@
 {
-  "name": "material-palenight-preview",
-  "description": "Material Palenight preview theme for Inkdrop",
-  "version": "1.2.0",
+  "name": "material-ocean-preview",
+  "description": "Material Ocean preview theme for Inkdrop",
+  "version": "1.0.0",
   "theme": "preview",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nint8835/material-palenight-preview"
+    "url": "https://github.com/Blacksuan19/inkdrop-material-ocean-preview"
   },
-  "author": "Riley Flynn<riley@rileyflynn.me>",
+  "author": "Blacksuan19 <abubakaryagob@gmail.com>",
   "license": "MIT",
   "styleSheets": [
     "github-markdown.less",
-    "material-palenight-dark.less"
+    "material-ocean-dark.less"
   ],
   "engines": {
     "inkdrop": "^4.x"
