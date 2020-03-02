@@ -5,9 +5,9 @@
   "theme": "preview",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Blacksuan19/inkdrop-material-ocean-preview"
+    "url": "https://github.com/material-ocean/inkdrop-material-ocean-preview"
   },
-  "author": "Blacksuan19 <abubakaryagob@gmail.com>",
+  "author": "Blacksuan19 <1@blacksuan19.me>",
   "license": "MIT",
   "styleSheets": [
     "github-markdown.less",
